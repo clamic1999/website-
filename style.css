@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 80px;
+    width: 100%;
+    position: relative;
+    background-color: black;
+}
+.logo{
+    height: 70px;
+    width: 70px;
+    top: 5px;
+    left: 10px;
+    position: absolute;
+}
+img{
+    height: 70px;
+    width: 100%;
+    border-radius: 50px;
+    position: absolute;
+}
+button{
+    margin-top: 20px;
+    margin-left: 90px;
+    left: 40%;
+    justify-content: space-evenly;
+    width: 90px;
+    position: relative;
+    padding: 10px;
+    font-size: large;
+    cursor: pointer;
+}
+button:hover{
+    background-color: lightpink;
+    color: blue;
+    border-radius: 5px;
+}
+.main img{
+    height: 80vh;
+    width: 100%;
+    display: grid;
+    border-radius: 0;
+}
+footer{
+    height: 51px;
+    width: 100%;
+    top: 606px;
+    background-color: black;
+    position: absolute;
+    color: white;
+    text-align: center;
+}
+footer p{
+    margin-top: 10px;
+}
